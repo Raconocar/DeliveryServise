@@ -1,1 +1,128 @@
-
+#logo {
+    height: 50px;
+}
+#left {
+    float: left;
+    width: 20%;
+    height: 20px;
+}
+#right {
+    float: right;
+    width: 20%;
+    height: 20px;
+}
+#content {
+    width: 1024px;
+    border: 2px bold green;
+    float: position: absolute;
+    top: 50%;
+}
+#topmenu ul li {
+    float: left;
+    list-style: none;
+}
+#topmenu {
+    background-color: #5ab2ec;
+}
+#topmenu ul {
+    margin: 0;
+    padding: 0;
+}
+.clear {
+    clear: both;
+}
+#topmenu ul li a {
+    color: white;
+    font-size: 160%;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+#login {
+    float: right;
+}
+a:hover {
+    background: #5890aa;
+    /* Цвет фона под ссылкой */
+    color: #ffe;
+    /* Цвет ссылки */
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    background-image: url('images/sklad.jpg');
+    height: 100%;
+    background-size: 100%;
+}
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 1024px;
+    /* Ширина элемента в пикселах */
+    /*padding: 10px;*/
+    /* Поля вокруг текста */
+    margin: auto;
+    /* Выравниваем по центру */
+    background: #bde8fc;
+    /* Цвет фона */
+}
+#content {
+    flex: 1 0 auto;
+}
+#footer {
+    flex: 0 0 auto;
+    background-color: #5ab2ec;
+}
+#logo {
+    font-size: 180%;
+    color: green;
+    /*top: 50%;*/
+}
+#logo_slogan {
+    text-align: left;
+}
+#form {
+    background-color: #5ab2ff margin:0 auto;
+}
+td, th {
+    padding: 5px;
+    border-radius: 2px;
+    /*border-color: green;*/
+    background: LightSeaGreen;
+    color: white;
+}
+.content {
+    background: #bde8fc;
+    /**/
+    /**/
+}
+.get_field{
+    max-height: 420px;
+    overflow: scroll;
+}
+.add_form {
+    overflow: scroll;
+    min-height: 280px;
+}
+input.add_button {
+    display: inline-block;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+    padding: .5em 2em;
+    outline: none;
+    border: 2px solid;
+    border-radius: 1px;
+    transition: 0.2s;
+    background: LightSeaGreen;
+}
+input.add_button:hover {
+    background: Teal;
+}
+input.add_button:active {
+    background: LightSeaGreen;
+}
